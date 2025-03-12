@@ -2,7 +2,7 @@
   description = "Run/Build Fabric with Nix";
 
   inputs = {
-    nixpkgs.url = "github:NixOS/nixpkgs/24.05";
+    nixpkgs.url = "github:NixOS/nixpkgs/24.11";
     utils.url = "github:numtide/flake-utils";
   };
 
