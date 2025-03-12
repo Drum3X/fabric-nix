@@ -22,6 +22,7 @@ python312Packages.buildPythonPackage {
   src = fetchFromGitHub {
     owner = "Fabric-Development";
     repo = "fabric";
+    rev = "";
     sha256 = "";
   };
 
