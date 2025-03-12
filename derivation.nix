@@ -16,7 +16,7 @@
 
 python313Packages.buildPythonPackage {
   pname = "python-fabric";
-  version = "0.0.4";
+  version = "0.0.5";
   pyproject = true;
 
   src = fetchFromGitHub {
