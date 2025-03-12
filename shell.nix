@@ -15,7 +15,7 @@ pkgs.mkShell {
     gdk-pixbuf
     gnome.gnome-bluetooth
     cinnamon.cinnamon-desktop
-    (python312.withPackages (
+    (python314.withPackages (
       ps: with ps; [
         setuptools
         wheel
