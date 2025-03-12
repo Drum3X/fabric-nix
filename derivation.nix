@@ -1,7 +1,7 @@
 {
   lib,
   fetchFromGitHub,
-  python312Packages,
+  python313Packages,
   gtk3,
   gtk-layer-shell,
   cairo,
@@ -14,7 +14,7 @@
   wrapGAppsHook3,
 }:
 
-python312Packages.buildPythonPackage {
+python313Packages.buildPythonPackage {
   pname = "python-fabric";
   version = "0.0.4";
   pyproject = true;
@@ -41,7 +41,7 @@ python312Packages.buildPythonPackage {
     gnome.gnome-bluetooth
   ];
 
-  dependencies = with python312Packages; [
+  dependencies = with python313Packages; [
     setuptools
     click
     pycairo
