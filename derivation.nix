@@ -16,14 +16,14 @@
 
 python312Packages.buildPythonPackage {
   pname = "python-fabric";
-  version = "0.0.3";
+  version = "0.0.4";
   pyproject = true;
 
   src = fetchFromGitHub {
-    owner = "Fabric-Development";
+    owner = "drum3x";
     repo = "fabric";
-    rev = "b40263bd15db9a7ad7fe7c764dd409aaa615622b";
-    sha256 = "sha256-8HrzieeOj9dmRNXXV1AA6jV7COVYPnD7dK9npPxtER4=";
+    rev = "ca629ac4030048a9c63c6e780386af9ce42cef4c";
+    sha256 = "sha256-foaSZgk9XhaLTgrVIMvxhedYaA6aBlrX8lnUysje1Og=";
   };
 
   nativeBuildInputs = [
